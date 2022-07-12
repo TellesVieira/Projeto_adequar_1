@@ -20,7 +20,7 @@ use Illuminate\Support\Facades\Route;
     
   
     Route::get('/serviço-gestão-mídias', function(){
-        return view('service-web-site-business');
+        return view('service-web-site-business.html');
     });
 
 
